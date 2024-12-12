@@ -5,14 +5,13 @@ var ZoomMax: Vector2 = Vector2(5.5,5.5)
 var ZoomSpd: Vector2 = Vector2(0.3,0.3)
 var PanSpeed: float = 1.0
 
-var start_zoom: Vector2
-var start_dist: float
-var touch_points: Dictionary = {}
-var start_angle: float
-var current_angle: float
+var startZoom: Vector2
+var startDist: float
+var touchPoints: Dictionary = {}
 
 
 func _input(event):
+	print(event)
 	if event is InputEventScreenTouch:
 		_handle_touch(event)
 	elif event is InputEventScreenDrag:
@@ -28,31 +27,42 @@ func _input(event):
 
 func _handle_touch(event: InputEventScreenTouch):
 	if event.pressed:
-		touch_points[event.index] = event.position
+		touchPoints[event.index] = event.position
 	else:
-		touch_points.erase(event.index)
+		touchPoints.erase(event.index)
 	
-	if touch_points.size() == 2:
-		var touch_point_positions = touch_points.values()
-		start_dist = touch_point_positions[0].distance_to(touch_point_positions[1])
-		start_zoom = zoom
-		start_dist = 0
+	if touchPoints.size() == 2:
+		var touch_point_positions = touchPoints.values()
+		startDist = touch_point_positions[0].distance_to(touch_point_positions[1])
+		startZoom = zoom
+		startDist = 0
 
 
 
 func _handle_drag(event: InputEventScreenDrag):
-	touch_points[event.index] = event.position
+	touchPoints[event.index] = event.position
 	# Handle 1 touch point
-	if touch_points.size() == 1:
+	if touchPoints.size() == 1:
 		position -= event.relative * PanSpeed / zoom
 		
-	# Handle 2 touch points
-	elif touch_points.size() == 2:
-		var touch_point_positions = touch_points.values()
-		var current_dist = touch_point_positions[0].distance_to(touch_point_positions[1])
+	if touchPoints.size() == 2:
+		# Find the index of the not moving
+		var pivotIndex = 1 if event.index == 0 else 0
 
-		var zoom_factor = start_dist / current_dist
-		zoom = start_zoom / zoom_factor
+		# get the 3 point involved
+		var pivotPoint: Vector2 = touchPoints[pivotIndex]
+		var oldPoint: Vector2 = touchPoints[event.index]
+		var newPoint: Vector2 = event.position
+
+		var oldVector: Vector2 = oldPoint - pivotPoint
+		var newVector: Vector2 = newPoint - pivotPoint
+		
+		var deltaScale = newVector.length() / oldVector.length()
+		zoom *= deltaScale
+		touchPoints[event.index] = newPoint
+		
+		var drag_vector: Vector2 = event.relative
+		offset -= drag_vector / 2 * zoom
 		if zoom < ZoomMin:
 			zoom = ZoomMin
 		elif zoom > ZoomMax:

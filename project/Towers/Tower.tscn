@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://du4q8qpspbhr1"]
 
-[ext_resource type="Script" path="res://Towers/tower.gd" id="1_gllvm"]
+[ext_resource type="Script" path="res://Towers/Tower.gd" id="1_gllvm"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_dwqiq"]
 radius = 30.0

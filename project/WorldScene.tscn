@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=4 uid="uid://bmqjww5qkdeoe"]
 
-[ext_resource type="Script" path="res://world_scene.gd" id="1_4eagi"]
+[ext_resource type="Script" path="res://WorldScene.gd" id="1_4eagi"]
 [ext_resource type="Script" path="res://MainCamera.gd" id="1_8gxau"]
 [ext_resource type="Texture2D" uid="uid://dxfrgpa0br8ai" path="res://Assets/Tiles/Field/FieldsTileset.png" id="2_b8pko"]
 [ext_resource type="Script" path="res://Hud/selectionPanel.gd" id="3_tnj6f"]
