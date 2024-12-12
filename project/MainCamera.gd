@@ -30,12 +30,6 @@ func _handle_touch(event: InputEventScreenTouch):
 		touchPoints[event.index] = event.position
 	else:
 		touchPoints.erase(event.index)
-	
-	if touchPoints.size() == 2:
-		var touch_point_positions = touchPoints.values()
-		startDist = touch_point_positions[0].distance_to(touch_point_positions[1])
-		startZoom = zoom
-		startDist = 0
 
 
 

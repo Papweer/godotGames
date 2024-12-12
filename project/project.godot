@@ -14,10 +14,6 @@ config/name="2d-towerdefensegame"
 run/main_scene="res://MenuScene.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 
-[autoload]
-
-InputManager="*res://TouchInputsPlugin/InputManager.gd"
-
 [editor]
 
 version_control/plugin_name="GitPlugin"
