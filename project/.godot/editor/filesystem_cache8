@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1734004152
+::res://::1734005440
 export_presets.cfg::TextFile::-1::1733994696::0::1::::<><>::
-MainCamera.gd::GDScript::-1::1734004139::0::1::::<>Camera2D<>::
+MainCamera.gd::GDScript::-1::1734004930::0::1::::<>Camera2D<>::
 MenuScene.gd::GDScript::-1::1733994761::0::1::::<>Node2D<>::
-MenuScene.tscn::PackedScene::595454173946642265::1733999254::0::1::::<><>::res://MenuScene.gd
+MenuScene.tscn::PackedScene::595454173946642265::1734005440::0::1::::<><>::res://MenuScene.gd
 WorldScene.gd::GDScript::-1::1733999254::0::1::::<>Node2D<>::
-WorldScene.tscn::PackedScene::3262303794413540776::1734004139::0::1::::<><>::res://world_scene.gd<>res://MainCamera.gd<>uid://dxfrgpa0br8ai::::res://Assets/Tiles/Field/FieldsTileset.png<>res://Hud/selectionPanel.gd<>uid://725u3xenkpx3::::res://Hud/SelectionOutline.tscn
+WorldScene.tscn::PackedScene::3262303794413540776::1734005440::0::1::::<><>::res://WorldScene.gd<>res://MainCamera.gd<>uid://dxfrgpa0br8ai::::res://Assets/Tiles/Field/FieldsTileset.png<>res://Hud/selectionPanel.gd<>uid://725u3xenkpx3::::res://Hud/SelectionOutline.tscn
 ::res://addons/::1733994695
 ::res://addons/godot-git-plugin/::1733994696
 git_plugin.gdextension::GDExtension::-1::1733994695::0::1::::<><>::
@@ -744,11 +744,30 @@ CyberpunkCraftpixPixel.otf::FontFile::6241286339639909292::1733994695::173399475
 ::res://Assets/Tiles/::1733994695
 ::res://Assets/Tiles/Field/::1733994757
 FieldsTileset.png::CompressedTexture2D::8784971036152986564::1733994695::1733994757::1::::<><>::
-::res://Hud/::1733999255
-SelectionOutline.tscn::PackedScene::2303639927821572934::1733999255::0::1::::<><>::uid://e3ysw4v7g7h6::::res://Assets/Gui/Selection Outline.png
+::res://Hud/::1734005440
+SelectionOutline.tscn::PackedScene::2303639927821572934::1734005440::0::1::::<><>::uid://e3ysw4v7g7h6::::res://Assets/Gui/Selection Outline.png
 selectionPanel.gd::GDScript::-1::1733994761::0::1::::<>VBoxContainer<>::
-::res://Towers/::1734004152
+::res://touchInputs/::1734005419
+GCC2D.gd::GDScript::-1::1682989469::0::1::::<>Camera2D<>::
+GCC2D.tscn::PackedScene::-1::1682989469::0::1::::<><>::
+InputManager.gd::GDScript::-1::1682902529::0::1::::<>Node<>::
+RawGesture.gd::GDScript::-1::1682902529::0::1::::RawGesture<>InputEventAction<>::
+Util.gd::GDScript::-1::1682902529::0::1::::<>RefCounted<>::
+::res://touchInputs/CustomInputEvents/::1682902529
+InputEventMultiScreenDrag.gd::GDScript::-1::1682902529::0::1::::InputEventMultiScreenDrag<>InputEventAction<>::
+InputEventMultiScreenLongPress.gd::GDScript::-1::1682902529::0::1::::InputEventMultiScreenLongPress<>InputEventAction<>::
+InputEventMultiScreenSwipe.gd::GDScript::-1::1682902529::0::1::::InputEventMultiScreenSwipe<>InputEventAction<>::
+InputEventMultiScreenTap.gd::GDScript::-1::1682902529::0::1::::InputEventMultiScreenTap<>InputEventAction<>::
+InputEventScreenCancel.gd::GDScript::-1::1682902529::0::1::::InputEventScreenCancel<>InputEventAction<>::
+InputEventScreenPinch.gd::GDScript::-1::1682902529::0::1::::InputEventScreenPinch<>InputEventAction<>::
+InputEventScreenTwist.gd::GDScript::-1::1682902529::0::1::::InputEventScreenTwist<>InputEventAction<>::
+InputEventSingleScreenDrag.gd::GDScript::-1::1682902529::0::1::::InputEventSingleScreenDrag<>InputEventAction<>::
+InputEventSingleScreenLongPress.gd::GDScript::-1::1682902529::0::1::::InputEventSingleScreenLongPress<>InputEventAction<>::
+InputEventSingleScreenSwipe.gd::GDScript::-1::1682902529::0::1::::InputEventSingleScreenSwipe<>InputEventAction<>::
+InputEventSingleScreenTap.gd::GDScript::-1::1682902529::0::1::::InputEventSingleScreenTap<>InputEventAction<>::
+InputEventSingleScreenTouch.gd::GDScript::-1::1682902529::0::1::::InputEventSingleScreenTouch<>InputEventAction<>::
+::res://Towers/::1734005440
 ArcherTower.gd::GDScript::-1::1733994761::0::1::::<>AnimatableBody2D<>::
-ArcherTower.tscn::PackedScene::6439247380655937634::1733999254::0::1::::<><>::uid://wphx33nddp30::::res://Assets/Archer Tower Assets/2 Idle/1.png<>uid://du4q8qpspbhr1::::res://Towers/Tower.tscn<>uid://diwhtn8rk4y3e::::res://Assets/Archer Tower Assets/1 Upgrade/1.png<>uid://cy1tew1syi1eh::::res://Assets/Archer Tower Assets/2 Idle/2.png<>uid://c7jbin52pgrx6::::res://Assets/Archer Tower Assets/2 Idle/3.png<>uid://b7q7sft13ew3k::::res://Assets/Archer Tower Assets/1 Upgrade/2.png<>uid://dhvun23jpgklr::::res://Assets/Archer Tower Assets/2 Idle/4.png<>uid://bg356b4awiopk::::res://Assets/Archer Tower Assets/2 Idle/5.png<>uid://bec2j6qjvywwg::::res://Assets/Archer Tower Assets/1 Upgrade/3.png<>uid://jw320nrul0fu::::res://Assets/Archer Tower Assets/2 Idle/6.png<>uid://bfi23lg3ovjxs::::res://Assets/Archer Tower Assets/2 Idle/7.png<>uid://covv231m41v50::::res://Assets/Archer Tower Assets/1 Upgrade/4.png<>uid://nuqvh21qjof3::::res://Assets/Archer Tower Assets/1 Upgrade/5.png<>uid://ba0o1bt0qfou2::::res://Assets/Archer Tower Assets/1 Upgrade/6.png<>uid://b7wqe2fy6ppty::::res://Assets/Archer Tower Assets/1 Upgrade/7.png
+ArcherTower.tscn::PackedScene::6439247380655937634::1734005440::0::1::::<><>::uid://wphx33nddp30::::res://Assets/Archer Tower Assets/2 Idle/1.png<>uid://du4q8qpspbhr1::::res://Towers/Tower.tscn<>uid://diwhtn8rk4y3e::::res://Assets/Archer Tower Assets/1 Upgrade/1.png<>uid://cy1tew1syi1eh::::res://Assets/Archer Tower Assets/2 Idle/2.png<>uid://c7jbin52pgrx6::::res://Assets/Archer Tower Assets/2 Idle/3.png<>uid://b7q7sft13ew3k::::res://Assets/Archer Tower Assets/1 Upgrade/2.png<>uid://dhvun23jpgklr::::res://Assets/Archer Tower Assets/2 Idle/4.png<>uid://bg356b4awiopk::::res://Assets/Archer Tower Assets/2 Idle/5.png<>uid://bec2j6qjvywwg::::res://Assets/Archer Tower Assets/1 Upgrade/3.png<>uid://jw320nrul0fu::::res://Assets/Archer Tower Assets/2 Idle/6.png<>uid://bfi23lg3ovjxs::::res://Assets/Archer Tower Assets/2 Idle/7.png<>uid://covv231m41v50::::res://Assets/Archer Tower Assets/1 Upgrade/4.png<>uid://nuqvh21qjof3::::res://Assets/Archer Tower Assets/1 Upgrade/5.png<>uid://ba0o1bt0qfou2::::res://Assets/Archer Tower Assets/1 Upgrade/6.png<>uid://b7wqe2fy6ppty::::res://Assets/Archer Tower Assets/1 Upgrade/7.png
 Tower.gd::GDScript::-1::1733994761::0::1::::Tower<>AnimatableBody2D<>::
-Tower.tscn::PackedScene::8623937146174408560::1734004152::0::1::::<><>::res://Towers/Tower.gd
+Tower.tscn::PackedScene::8623937146174408560::1734005440::0::1::::<><>::res://Towers/Tower.gd

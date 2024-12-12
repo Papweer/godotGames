@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=4 uid="uid://bmqjww5qkdeoe"]
 
 [ext_resource type="Script" path="res://WorldScene.gd" id="1_4eagi"]
-[ext_resource type="Script" path="res://MainCamera.gd" id="1_8gxau"]
 [ext_resource type="Texture2D" uid="uid://dxfrgpa0br8ai" path="res://Assets/Tiles/Field/FieldsTileset.png" id="2_b8pko"]
 [ext_resource type="Script" path="res://Hud/selectionPanel.gd" id="3_tnj6f"]
 [ext_resource type="PackedScene" uid="uid://725u3xenkpx3" path="res://Hud/SelectionOutline.tscn" id="5_2r6q7"]
+[ext_resource type="PackedScene" path="res://GCC2D.tscn" id="5_dnitr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v8ccg"]
 texture = ExtResource("2_b8pko")
@@ -272,9 +272,6 @@ sources/0 = SubResource("TileSetAtlasSource_v8ccg")
 y_sort_enabled = true
 script = ExtResource("1_4eagi")
 
-[node name="MainCamera" type="Camera2D" parent="."]
-script = ExtResource("1_8gxau")
-
 [node name="Hud" type="CanvasLayer" parent="."]
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Hud"]
@@ -340,6 +337,8 @@ y_sort_origin = -1
 
 [node name="SelectionOutline" parent="." instance=ExtResource("5_2r6q7")]
 visible = false
+
+[node name="GCC2D" parent="." instance=ExtResource("5_dnitr")]
 
 [connection signal="pressed" from="Hud/HBoxContainer/selectionPanel/Upgrade" to="Hud/HBoxContainer/selectionPanel" method="_onUpgrade"]
 [connection signal="pressed" from="Hud/HBoxContainer/selectionPanel/DeleteButton" to="Hud/HBoxContainer/selectionPanel" method="_onDelete"]
