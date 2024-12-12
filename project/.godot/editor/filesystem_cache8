@@ -1,22 +1,22 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733994696
-export_presets.cfg::TextFile::-1::1733923403::0::1::::<><>::
-MainCamera.gd::GDScript::-1::1733994695::0::1::::<>Camera2D<>::
-MenuScene.gd::GDScript::-1::1733994695::0::1::::<>Node2D<>::
-MenuScene.tscn::PackedScene::595454173946642265::1733992528::0::1::::<><>::res://MenuScene.gd
-WorldScene.tscn::PackedScene::3262303794413540776::1733992529::0::1::::<><>::res://world_scene.gd<>res://MainCamera.gd<>uid://dxfrgpa0br8ai::::res://Assets/Tiles/Field/FieldsTileset.png<>res://Hud/selectionPanel.gd<>uid://725u3xenkpx3::::res://Hud/SelectionOutline.tscn
-world_scene.gd::GDScript::-1::1733994696::0::1::::<>Node2D<>::
+::res://::1733995498
+export_presets.cfg::TextFile::-1::1733994696::0::1::::<><>::
+MainCamera.gd::GDScript::-1::1733994761::0::1::::<>Camera2D<>::
+MenuScene.gd::GDScript::-1::1733994761::0::1::::<>Node2D<>::
+MenuScene.tscn::PackedScene::595454173946642265::1733994695::0::1::::<><>::res://MenuScene.gd
+WorldScene.tscn::PackedScene::3262303794413540776::1733994695::0::1::::<><>::res://world_scene.gd<>res://MainCamera.gd<>uid://dxfrgpa0br8ai::::res://Assets/Tiles/Field/FieldsTileset.png<>res://Hud/selectionPanel.gd<>uid://725u3xenkpx3::::res://Hud/SelectionOutline.tscn
+world_scene.gd::GDScript::-1::1733994761::0::1::::<>Node2D<>::
 ::res://addons/::1733994695
 ::res://addons/godot-git-plugin/::1733994696
 git_plugin.gdextension::GDExtension::-1::1733994695::0::1::::<><>::
-plugin.cfg::TextFile::-1::1733779439::0::1::::<><>::
-THIRDPARTY.md::TextFile::-1::1733779439::0::1::::<><>::
+plugin.cfg::TextFile::-1::1733994696::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1733994695::0::1::::<><>::
 ::res://addons/godot-git-plugin/linux/::1733994695
 ::res://addons/godot-git-plugin/macos/::1733994696
 ::res://addons/godot-git-plugin/win64/::1733994696
 ::res://Assets/::1733994695
 ::res://Assets/Archer Tower Assets/::1733994695
-::res://Assets/Archer Tower Assets/1 Upgrade/::1733994695
+::res://Assets/Archer Tower Assets/1 Upgrade/::1733994757
 1.png::CompressedTexture2D::7766648794375467268::1733994695::1733994757::1::::<><>::
 2.png::CompressedTexture2D::4667469105420865402::1733994695::1733994757::1::::<><>::
 3.png::CompressedTexture2D::2672961898081865210::1733994695::1733994757::1::::<><>::
@@ -24,7 +24,7 @@ THIRDPARTY.md::TextFile::-1::1733779439::0::1::::<><>::
 5.png::CompressedTexture2D::954751906508125510::1733994695::1733994757::1::::<><>::
 6.png::CompressedTexture2D::2438926679116967683::1733994695::1733994757::1::::<><>::
 7.png::CompressedTexture2D::4678860032746295554::1733994695::1733994757::1::::<><>::
-::res://Assets/Archer Tower Assets/2 Idle/::1733994695
+::res://Assets/Archer Tower Assets/2 Idle/::1733994757
 1.png::CompressedTexture2D::1575587833059920373::1733994695::1733994757::1::::<><>::
 2.png::CompressedTexture2D::6512209398871588215::1733994695::1733994757::1::::<><>::
 3.png::CompressedTexture2D::7037539497328524145::1733994695::1733994757::1::::<><>::
@@ -33,7 +33,7 @@ THIRDPARTY.md::TextFile::-1::1733779439::0::1::::<><>::
 6.png::CompressedTexture2D::678865529530301082::1733994695::1733994757::1::::<><>::
 7.png::CompressedTexture2D::2755569873267188044::1733994695::1733994757::1::::<><>::
 ::res://Assets/Archer Tower Assets/3 Units/::1733994695
-::res://Assets/Archer Tower Assets/3 Units/1/::1733994695
+::res://Assets/Archer Tower Assets/3 Units/1/::1733994757
 D_Attack.png::CompressedTexture2D::5332760458467238753::1733994695::1733994757::1::::<><>::
 D_Idle.png::CompressedTexture2D::113403156573334552::1733994695::1733994757::1::::<><>::
 D_Preattack.png::CompressedTexture2D::1108890405652396853::1733994695::1733994757::1::::<><>::
@@ -43,7 +43,7 @@ S_Preattack.png::CompressedTexture2D::4230551428315621941::1733994695::173399475
 U_Attack.png::CompressedTexture2D::6153858564855808334::1733994695::1733994757::1::::<><>::
 U_Idle.png::CompressedTexture2D::4169691609412094326::1733994695::1733994757::1::::<><>::
 U_Preattack.png::CompressedTexture2D::8066440244526583595::1733994695::1733994757::1::::<><>::
-::res://Assets/Archer Tower Assets/3 Units/2/::1733994695
+::res://Assets/Archer Tower Assets/3 Units/2/::1733994757
 D_Attack.png::CompressedTexture2D::3088111626074589318::1733994695::1733994757::1::::<><>::
 D_Idle.png::CompressedTexture2D::541257274142008638::1733994695::1733994757::1::::<><>::
 D_Preattack.png::CompressedTexture2D::8669820312432002800::1733994695::1733994757::1::::<><>::
@@ -53,7 +53,7 @@ S_Preattack.png::CompressedTexture2D::3958717251818356025::1733994695::173399475
 U_Attack.png::CompressedTexture2D::5430794020397200269::1733994695::1733994757::1::::<><>::
 U_Idle.png::CompressedTexture2D::4724524919644446977::1733994695::1733994757::1::::<><>::
 U_Preattack.png::CompressedTexture2D::2751495402726162837::1733994695::1733994757::1::::<><>::
-::res://Assets/Archer Tower Assets/3 Units/3/::1733994695
+::res://Assets/Archer Tower Assets/3 Units/3/::1733994757
 D_Attack.png::CompressedTexture2D::7859501623925653518::1733994695::1733994757::1::::<><>::
 D_Idle.png::CompressedTexture2D::4374857353327853246::1733994695::1733994757::1::::<><>::
 D_Preattack.png::CompressedTexture2D::6772137750805376395::1733994695::1733994757::1::::<><>::
@@ -63,7 +63,7 @@ S_Preattack.png::CompressedTexture2D::3582519744549052348::1733994695::173399475
 U_Attack.png::CompressedTexture2D::1638672241667237240::1733994695::1733994757::1::::<><>::
 U_Idle.png::CompressedTexture2D::8843700606067469774::1733994695::1733994757::1::::<><>::
 U_Preattack.png::CompressedTexture2D::2433198053982298::1733994695::1733994757::1::::<><>::
-::res://Assets/Archer Tower Assets/3 Units/Arrow/::1733994695
+::res://Assets/Archer Tower Assets/3 Units/Arrow/::1733994757
 1.png::CompressedTexture2D::8941285488055434841::1733994695::1733994757::1::::<><>::
 2.png::CompressedTexture2D::8554731452511412176::1733994695::1733994757::1::::<><>::
 3.png::CompressedTexture2D::467664936409787177::1733994695::1733994757::1::::<><>::
@@ -92,9 +92,9 @@ U_Preattack.png::CompressedTexture2D::2433198053982298::1733994695::1733994757::
 26.png::CompressedTexture2D::6024049577825957219::1733994695::1733994757::1::::<><>::
 27.png::CompressedTexture2D::71030666974235470::1733994695::1733994757::1::::<><>::
 ::res://Assets/Archer Tower Assets/PSD/::1733994695
-::res://Assets/Gui/::1733994695
+::res://Assets/Gui/::1733994757
 Selection Outline.png::CompressedTexture2D::340048505092697501::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/1 Frames/::1733994695
+::res://Assets/Gui/1 Frames/::1733994758
 FrameMap.png::CompressedTexture2D::2589103806861410612::1733994695::1733994757::1::::<><>::
 Frame_01.png::CompressedTexture2D::6389916874353793817::1733994695::1733994757::1::::<><>::
 Frame_02.png::CompressedTexture2D::5823609076202478599::1733994695::1733994757::1::::<><>::
@@ -178,7 +178,7 @@ Frame_79.png::CompressedTexture2D::109841442702858413::1733994695::1733994757::1
 Frame_80.png::CompressedTexture2D::1083712133874915790::1733994695::1733994757::1::::<><>::
 Frame_81.png::CompressedTexture2D::1573856769362188228::1733994695::1733994757::1::::<><>::
 Interface windows.png::CompressedTexture2D::5397118584197063997::1733994695::1733994758::1::::<><>::
-::res://Assets/Gui/2 Bars/::1733994695
+::res://Assets/Gui/2 Bars/::1733994757
 EnergyBar1.png::CompressedTexture2D::1936374839237800556::1733994695::1733994757::1::::<><>::
 EnergyBar2.png::CompressedTexture2D::932980269410810272::1733994695::1733994757::1::::<><>::
 EnergyBar3.png::CompressedTexture2D::5093437850772305262::1733994695::1733994757::1::::<><>::
@@ -200,7 +200,7 @@ Scrolling2.png::CompressedTexture2D::623531698507430419::1733994695::1733994757:
 Scrolling3.png::CompressedTexture2D::857961637031816199::1733994695::1733994757::1::::<><>::
 Scrolling4.png::CompressedTexture2D::3166432426535907262::1733994695::1733994757::1::::<><>::
 ::res://Assets/Gui/3 Icons/::1733994695
-::res://Assets/Gui/3 Icons/Buttons2/::1733994695
+::res://Assets/Gui/3 Icons/Buttons2/::1733994757
 Button2_01.png::CompressedTexture2D::278781920148616234::1733994695::1733994757::1::::<><>::
 Button2_02.png::CompressedTexture2D::6084026966773425799::1733994695::1733994757::1::::<><>::
 Button2_03.png::CompressedTexture2D::9025324537569722413::1733994695::1733994757::1::::<><>::
@@ -221,7 +221,7 @@ Button2_17.png::CompressedTexture2D::5906440108773985077::1733994695::1733994757
 Button2_18.png::CompressedTexture2D::8474369789775038290::1733994695::1733994757::1::::<><>::
 Button2_19.png::CompressedTexture2D::872446857373744466::1733994695::1733994757::1::::<><>::
 Button2_20.png::CompressedTexture2D::4941639924291061189::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/3 Icons/Icons/::1733994695
+::res://Assets/Gui/3 Icons/Icons/::1733994757
 Icon_01.png::CompressedTexture2D::9140830711172156425::1733994695::1733994757::1::::<><>::
 Icon_02.png::CompressedTexture2D::227585715982233088::1733994695::1733994757::1::::<><>::
 Icon_03.png::CompressedTexture2D::5857184102067582908::1733994695::1733994757::1::::<><>::
@@ -262,13 +262,13 @@ Icon_37.png::CompressedTexture2D::5625619306934330118::1733994695::1733994757::1
 Icon_38.png::CompressedTexture2D::1379601266545527631::1733994695::1733994757::1::::<><>::
 Icon_39.png::CompressedTexture2D::2410675212907132502::1733994695::1733994757::1::::<><>::
 Icon_40.png::CompressedTexture2D::5602950359866862476::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/4 Palette/::1733994695
+::res://Assets/Gui/4 Palette/::1733994757
 1.png::CompressedTexture2D::1046642195923705102::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/5 Logo/::1733994695
+::res://Assets/Gui/5 Logo/::1733994757
 Logo1.png::CompressedTexture2D::6662114346954603319::1733994695::1733994757::1::::<><>::
 Logo2.png::CompressedTexture2D::2081691844761685165::1733994695::1733994757::1::::<><>::
 Logo3.png::CompressedTexture2D::6638724622484335953::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/6 Buttons/::1733994695
+::res://Assets/Gui/6 Buttons/::1733994757
 ButtonMap1.png::CompressedTexture2D::774920618461579216::1733994695::1733994757::1::::<><>::
 ButtonMap2.png::CompressedTexture2D::3987654749803552735::1733994695::1733994757::1::::<><>::
 ButtonMap3.png::CompressedTexture2D::5497331791779095321::1733994695::1733994757::1::::<><>::
@@ -279,7 +279,7 @@ ButtonMap7.png::CompressedTexture2D::6406725860565032391::1733994695::1733994757
 ButtonMap8.png::CompressedTexture2D::7155439053660932409::1733994695::1733994757::1::::<><>::
 ButtonMap9.png::CompressedTexture2D::7244356916079684456::1733994695::1733994757::1::::<><>::
 ButtonMap10.png::CompressedTexture2D::7984634920944669456::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/6 Buttons/1/::1733994695
+::res://Assets/Gui/6 Buttons/1/::1733994757
 1_01.png::CompressedTexture2D::38534435134305217::1733994695::1733994757::1::::<><>::
 1_02.png::CompressedTexture2D::9159599600530435041::1733994695::1733994757::1::::<><>::
 1_03.png::CompressedTexture2D::1473008173173884351::1733994695::1733994757::1::::<><>::
@@ -312,7 +312,7 @@ ButtonMap10.png::CompressedTexture2D::7984634920944669456::1733994695::173399475
 1_30.png::CompressedTexture2D::4468399385803521942::1733994695::1733994757::1::::<><>::
 1_31.png::CompressedTexture2D::7870661503517247616::1733994695::1733994757::1::::<><>::
 1_32.png::CompressedTexture2D::5367274890091794235::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/6 Buttons/2/::1733994695
+::res://Assets/Gui/6 Buttons/2/::1733994757
 2_01.png::CompressedTexture2D::6866873963542436602::1733994695::1733994757::1::::<><>::
 2_02.png::CompressedTexture2D::7830557222114553496::1733994695::1733994757::1::::<><>::
 2_03.png::CompressedTexture2D::1052625630444658921::1733994695::1733994757::1::::<><>::
@@ -345,7 +345,7 @@ ButtonMap10.png::CompressedTexture2D::7984634920944669456::1733994695::173399475
 2_30.png::CompressedTexture2D::1858291005230514625::1733994695::1733994757::1::::<><>::
 2_31.png::CompressedTexture2D::6569298463754848371::1733994695::1733994757::1::::<><>::
 2_32.png::CompressedTexture2D::5044692450155665015::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/6 Buttons/3/::1733994695
+::res://Assets/Gui/6 Buttons/3/::1733994757
 3_01.png::CompressedTexture2D::4038183783186286641::1733994695::1733994757::1::::<><>::
 3_02.png::CompressedTexture2D::1615315408288845176::1733994695::1733994757::1::::<><>::
 3_03.png::CompressedTexture2D::901615614017959021::1733994695::1733994757::1::::<><>::
@@ -378,7 +378,7 @@ ButtonMap10.png::CompressedTexture2D::7984634920944669456::1733994695::173399475
 3_30.png::CompressedTexture2D::689470782119916798::1733994695::1733994757::1::::<><>::
 3_31.png::CompressedTexture2D::266799886598255266::1733994695::1733994757::1::::<><>::
 3_32.png::CompressedTexture2D::7055555354317395602::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/6 Buttons/4/::1733994695
+::res://Assets/Gui/6 Buttons/4/::1733994757
 4_01.png::CompressedTexture2D::6644342294647309991::1733994695::1733994757::1::::<><>::
 4_02.png::CompressedTexture2D::8600800857518146922::1733994695::1733994757::1::::<><>::
 4_03.png::CompressedTexture2D::5503151978749037989::1733994695::1733994757::1::::<><>::
@@ -411,7 +411,7 @@ ButtonMap10.png::CompressedTexture2D::7984634920944669456::1733994695::173399475
 4_30.png::CompressedTexture2D::5621679338279599172::1733994695::1733994757::1::::<><>::
 4_31.png::CompressedTexture2D::1446683339046096313::1733994695::1733994757::1::::<><>::
 4_32.png::CompressedTexture2D::5349102238677080415::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/6 Buttons/5/::1733994695
+::res://Assets/Gui/6 Buttons/5/::1733994757
 5_01.png::CompressedTexture2D::8945783551093443895::1733994695::1733994757::1::::<><>::
 5_02.png::CompressedTexture2D::7579535723310978612::1733994695::1733994757::1::::<><>::
 5_03.png::CompressedTexture2D::5861693636432998684::1733994695::1733994757::1::::<><>::
@@ -444,7 +444,7 @@ ButtonMap10.png::CompressedTexture2D::7984634920944669456::1733994695::173399475
 5_30.png::CompressedTexture2D::3777251709935467406::1733994695::1733994757::1::::<><>::
 5_31.png::CompressedTexture2D::9128652709465395419::1733994695::1733994757::1::::<><>::
 5_32.png::CompressedTexture2D::4970495558131859025::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/6 Buttons/6/::1733994695
+::res://Assets/Gui/6 Buttons/6/::1733994757
 6_01.png::CompressedTexture2D::1869267613667797089::1733994695::1733994757::1::::<><>::
 6_02.png::CompressedTexture2D::3767691708514211711::1733994695::1733994757::1::::<><>::
 6_03.png::CompressedTexture2D::893337828860274660::1733994695::1733994757::1::::<><>::
@@ -477,7 +477,7 @@ ButtonMap10.png::CompressedTexture2D::7984634920944669456::1733994695::173399475
 6_30.png::CompressedTexture2D::3018264831009755864::1733994695::1733994757::1::::<><>::
 6_31.png::CompressedTexture2D::407114064457533946::1733994695::1733994757::1::::<><>::
 6_32.png::CompressedTexture2D::8006645865135064063::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/6 Buttons/7/::1733994695
+::res://Assets/Gui/6 Buttons/7/::1733994757
 7_01.png::CompressedTexture2D::9118099329869522065::1733994695::1733994757::1::::<><>::
 7_02.png::CompressedTexture2D::7244743509504904173::1733994695::1733994757::1::::<><>::
 7_03.png::CompressedTexture2D::5988874627110126018::1733994695::1733994757::1::::<><>::
@@ -510,7 +510,7 @@ ButtonMap10.png::CompressedTexture2D::7984634920944669456::1733994695::173399475
 7_30.png::CompressedTexture2D::3275998602101985736::1733994695::1733994757::1::::<><>::
 7_31.png::CompressedTexture2D::2886283943354897838::1733994695::1733994757::1::::<><>::
 7_32.png::CompressedTexture2D::2988434912947435948::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/6 Buttons/8/::1733994695
+::res://Assets/Gui/6 Buttons/8/::1733994757
 8_01.png::CompressedTexture2D::6994037488107827917::1733994695::1733994757::1::::<><>::
 8_02.png::CompressedTexture2D::6904311620211091557::1733994695::1733994757::1::::<><>::
 8_03.png::CompressedTexture2D::1594035101361013079::1733994695::1733994757::1::::<><>::
@@ -543,7 +543,7 @@ ButtonMap10.png::CompressedTexture2D::7984634920944669456::1733994695::173399475
 8_30.png::CompressedTexture2D::5238449317100267448::1733994695::1733994757::1::::<><>::
 8_31.png::CompressedTexture2D::4380726641726161271::1733994695::1733994757::1::::<><>::
 8_32.png::CompressedTexture2D::9095814846394749099::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/6 Buttons/9/::1733994695
+::res://Assets/Gui/6 Buttons/9/::1733994757
 9_01.png::CompressedTexture2D::3103550760378504004::1733994695::1733994757::1::::<><>::
 9_02.png::CompressedTexture2D::8447702322202656758::1733994695::1733994757::1::::<><>::
 9_03.png::CompressedTexture2D::3991642873649383473::1733994695::1733994757::1::::<><>::
@@ -576,7 +576,7 @@ ButtonMap10.png::CompressedTexture2D::7984634920944669456::1733994695::173399475
 9_30.png::CompressedTexture2D::6905045755618148993::1733994695::1733994757::1::::<><>::
 9_31.png::CompressedTexture2D::3791005874780542285::1733994695::1733994757::1::::<><>::
 9_32.png::CompressedTexture2D::4213186080186387320::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/6 Buttons/10/::1733994695
+::res://Assets/Gui/6 Buttons/10/::1733994757
 10_01.png::CompressedTexture2D::8350780995753640248::1733994695::1733994757::1::::<><>::
 10_02.png::CompressedTexture2D::4779943250888369701::1733994695::1733994757::1::::<><>::
 10_03.png::CompressedTexture2D::3880792187304989535::1733994695::1733994757::1::::<><>::
@@ -609,7 +609,7 @@ ButtonMap10.png::CompressedTexture2D::7984634920944669456::1733994695::173399475
 10_30.png::CompressedTexture2D::4848301362897696488::1733994695::1733994757::1::::<><>::
 10_31.png::CompressedTexture2D::8652607429540048254::1733994695::1733994757::1::::<><>::
 10_32.png::CompressedTexture2D::4612034147165507692::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/7 Numbers/::1733994695
+::res://Assets/Gui/7 Numbers/::1733994757
 0.png::CompressedTexture2D::2118726552622507401::1733994695::1733994757::1::::<><>::
 1.png::CompressedTexture2D::2644750824766050862::1733994695::1733994757::1::::<><>::
 2.png::CompressedTexture2D::7337056438540584923::1733994695::1733994757::1::::<><>::
@@ -627,13 +627,13 @@ K.png::CompressedTexture2D::6183986737451173251::1733994695::1733994757::1::::<>
 M.png::CompressedTexture2D::5729282450116300129::1733994695::1733994757::1::::<><>::
 NumbersMap.png::CompressedTexture2D::6564897342192810088::1733994695::1733994757::1::::<><>::
 plus.png::CompressedTexture2D::5826235246254213128::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/8 Cursors/::1733994695
+::res://Assets/Gui/8 Cursors/::1733994757
 1.png::CompressedTexture2D::1517194957367081297::1733994695::1733994757::1::::<><>::
 2.png::CompressedTexture2D::1781575159583959115::1733994695::1733994757::1::::<><>::
 3.png::CompressedTexture2D::5939317214294721908::1733994695::1733994757::1::::<><>::
 4.png::CompressedTexture2D::6759559965035525546::1733994695::1733994757::1::::<><>::
 ::res://Assets/Gui/9 Other/::1733994695
-::res://Assets/Gui/9 Other/1 Decor/::1733994695
+::res://Assets/Gui/9 Other/1 Decor/::1733994757
 1.png::CompressedTexture2D::2418325486333379055::1733994695::1733994757::1::::<><>::
 2.png::CompressedTexture2D::2742982603914567726::1733994695::1733994757::1::::<><>::
 3.png::CompressedTexture2D::1878925395414166169::1733994695::1733994757::1::::<><>::
@@ -642,7 +642,7 @@ plus.png::CompressedTexture2D::5826235246254213128::1733994695::1733994757::1:::
 6.png::CompressedTexture2D::7995810217435990814::1733994695::1733994757::1::::<><>::
 7.png::CompressedTexture2D::5849990242556508684::1733994695::1733994757::1::::<><>::
 8.png::CompressedTexture2D::6567644347578642851::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/9 Other/2 Socialmedia icons/::1733994695
+::res://Assets/Gui/9 Other/2 Socialmedia icons/::1733994757
 7Social-media-icons_02.png::CompressedTexture2D::9205062640214594862::1733994695::1733994757::1::::<><>::
 7Social-media-icons_03.png::CompressedTexture2D::3471883959468011352::1733994695::1733994757::1::::<><>::
 7Social-media-icons_09.png::CompressedTexture2D::1993354057485169351::1733994695::1733994757::1::::<><>::
@@ -654,7 +654,7 @@ plus.png::CompressedTexture2D::5826235246254213128::1733994695::1733994757::1:::
 7Social-media-icons_39.png::CompressedTexture2D::3213994912047600765::1733994695::1733994757::1::::<><>::
 7Social-media-icons_40.png::CompressedTexture2D::8778533321500048701::1733994695::1733994757::1::::<><>::
 7Social-media-icons_43.png::CompressedTexture2D::16918963726127613::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/9 Other/3 Skill icons/::1733994695
+::res://Assets/Gui/9 Other/3 Skill icons/::1733994757
 Skillicon7_01.png::CompressedTexture2D::3274263482855231655::1733994695::1733994757::1::::<><>::
 Skillicon7_02.png::CompressedTexture2D::5323848363622786857::1733994695::1733994757::1::::<><>::
 Skillicon7_03.png::CompressedTexture2D::8214661609791789716::1733994695::1733994757::1::::<><>::
@@ -675,9 +675,9 @@ Skillicon7_17.png::CompressedTexture2D::1740823503715508912::1733994695::1733994
 Skillicon7_18.png::CompressedTexture2D::594608450201734283::1733994695::1733994757::1::::<><>::
 Skillicon7_19.png::CompressedTexture2D::3881515205880530681::1733994695::1733994757::1::::<><>::
 Skillicon7_20.png::CompressedTexture2D::8387475829322380822::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/10 Font/::1733994695
+::res://Assets/Gui/10 Font/::1733994757
 CyberpunkCraftpixPixel.otf::FontFile::6241286339639909292::1733994695::1733994757::1::::<><>::
-::res://Assets/Gui/10 Font/images/::1733994695
+::res://Assets/Gui/10 Font/images/::1733994757
 1_01.png::CompressedTexture2D::3881599370726683600::1733994695::1733994757::1::::<><>::
 1_02.png::CompressedTexture2D::3412320345470836002::1733994695::1733994757::1::::<><>::
 1_03.png::CompressedTexture2D::7242197599500957743::1733994695::1733994757::1::::<><>::
@@ -742,13 +742,13 @@ CyberpunkCraftpixPixel.otf::FontFile::6241286339639909292::1733994695::173399475
 1_62.png::CompressedTexture2D::8600058465122580183::1733994695::1733994757::1::::<><>::
 1_63.png::CompressedTexture2D::679778129680837778::1733994695::1733994757::1::::<><>::
 ::res://Assets/Tiles/::1733994695
-::res://Assets/Tiles/Field/::1733994695
+::res://Assets/Tiles/Field/::1733994757
 FieldsTileset.png::CompressedTexture2D::8784971036152986564::1733994695::1733994757::1::::<><>::
-::res://Hud/::1733994695
-SelectionOutline.tscn::PackedScene::2303639927821572934::1733992529::0::1::::<><>::uid://e3ysw4v7g7h6::::res://Assets/Gui/Selection Outline.png
-selectionPanel.gd::GDScript::-1::1733994695::0::1::::<>VBoxContainer<>::
-::res://Towers/::1733994695
-ArcherTower.gd::GDScript::-1::1733994695::0::1::::<>AnimatableBody2D<>::
-ArcherTower.tscn::PackedScene::6439247380655937634::1733992529::0::1::::<><>::uid://wphx33nddp30::::res://Assets/Archer Tower Assets/2 Idle/1.png<>uid://du4q8qpspbhr1::::res://Towers/Tower.tscn<>uid://diwhtn8rk4y3e::::res://Assets/Archer Tower Assets/1 Upgrade/1.png<>uid://cy1tew1syi1eh::::res://Assets/Archer Tower Assets/2 Idle/2.png<>uid://c7jbin52pgrx6::::res://Assets/Archer Tower Assets/2 Idle/3.png<>uid://b7q7sft13ew3k::::res://Assets/Archer Tower Assets/1 Upgrade/2.png<>uid://dhvun23jpgklr::::res://Assets/Archer Tower Assets/2 Idle/4.png<>uid://bg356b4awiopk::::res://Assets/Archer Tower Assets/2 Idle/5.png<>uid://bec2j6qjvywwg::::res://Assets/Archer Tower Assets/1 Upgrade/3.png<>uid://jw320nrul0fu::::res://Assets/Archer Tower Assets/2 Idle/6.png<>uid://bfi23lg3ovjxs::::res://Assets/Archer Tower Assets/2 Idle/7.png<>uid://covv231m41v50::::res://Assets/Archer Tower Assets/1 Upgrade/4.png<>uid://nuqvh21qjof3::::res://Assets/Archer Tower Assets/1 Upgrade/5.png<>uid://ba0o1bt0qfou2::::res://Assets/Archer Tower Assets/1 Upgrade/6.png<>uid://b7wqe2fy6ppty::::res://Assets/Archer Tower Assets/1 Upgrade/7.png
-tower.gd::GDScript::-1::1733994695::0::1::::Tower<>AnimatableBody2D<>::
-Tower.tscn::PackedScene::8623937146174408560::1733992529::0::1::::<><>::res://Towers/tower.gd
+::res://Hud/::1733994761
+SelectionOutline.tscn::PackedScene::2303639927821572934::1733994695::0::1::::<><>::uid://e3ysw4v7g7h6::::res://Assets/Gui/Selection Outline.png
+selectionPanel.gd::GDScript::-1::1733994761::0::1::::<>VBoxContainer<>::
+::res://Towers/::1733994761
+ArcherTower.gd::GDScript::-1::1733994761::0::1::::<>AnimatableBody2D<>::
+ArcherTower.tscn::PackedScene::6439247380655937634::1733994695::0::1::::<><>::uid://wphx33nddp30::::res://Assets/Archer Tower Assets/2 Idle/1.png<>uid://du4q8qpspbhr1::::res://Towers/Tower.tscn<>uid://diwhtn8rk4y3e::::res://Assets/Archer Tower Assets/1 Upgrade/1.png<>uid://cy1tew1syi1eh::::res://Assets/Archer Tower Assets/2 Idle/2.png<>uid://c7jbin52pgrx6::::res://Assets/Archer Tower Assets/2 Idle/3.png<>uid://b7q7sft13ew3k::::res://Assets/Archer Tower Assets/1 Upgrade/2.png<>uid://dhvun23jpgklr::::res://Assets/Archer Tower Assets/2 Idle/4.png<>uid://bg356b4awiopk::::res://Assets/Archer Tower Assets/2 Idle/5.png<>uid://bec2j6qjvywwg::::res://Assets/Archer Tower Assets/1 Upgrade/3.png<>uid://jw320nrul0fu::::res://Assets/Archer Tower Assets/2 Idle/6.png<>uid://bfi23lg3ovjxs::::res://Assets/Archer Tower Assets/2 Idle/7.png<>uid://covv231m41v50::::res://Assets/Archer Tower Assets/1 Upgrade/4.png<>uid://nuqvh21qjof3::::res://Assets/Archer Tower Assets/1 Upgrade/5.png<>uid://ba0o1bt0qfou2::::res://Assets/Archer Tower Assets/1 Upgrade/6.png<>uid://b7wqe2fy6ppty::::res://Assets/Archer Tower Assets/1 Upgrade/7.png
+tower.gd::GDScript::-1::1733994761::0::1::::Tower<>AnimatableBody2D<>::
+Tower.tscn::PackedScene::8623937146174408560::1733994695::0::1::::<><>::res://Towers/tower.gd

@@ -1,11 +1,1 @@
-res://MenuScene.tscn
 res://WorldScene.tscn
-res://Towers/Tower.tscn
-res://Towers/ArcherTower.tscn
-res://Hud/SelectionOutline.tscn
-res://MainCamera.gd
-res://Towers/ArcherTower.gd
-res://MenuScene.gd
-res://Hud/selectionPanel.gd
-res://Towers/tower.gd
-res://world_scene.gd
