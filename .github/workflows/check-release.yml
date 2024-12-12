@@ -48,4 +48,4 @@ jobs:
         with:
           body_path: body.txt
           tag_name: ${{ needs.fetch.outputs.release_tag }}
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.PAT }}z
