@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://725u3xenkpx3"]
+
+[ext_resource type="Texture2D" uid="uid://e3ysw4v7g7h6" path="res://Assets/Gui/Selection Outline.png" id="1_suu4s"]
+
+[node name="Selection" type="Sprite2D"]
+texture = ExtResource("1_suu4s")
