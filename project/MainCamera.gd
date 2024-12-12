@@ -57,10 +57,10 @@ func _handle_drag(event: InputEventScreenDrag):
 		
 		var drag_vector: Vector2 = event.relative
 		offset -= drag_vector / 2 * zoom
-		if zoom < ZoomMin:
-			zoom = ZoomMin
-		elif zoom > ZoomMax:
-			zoom = ZoomMax
+		#if zoom < ZoomMin:
+		#	zoom = ZoomMin
+		#elif zoom > ZoomMax:
+		#	zoom = ZoomMax
 
 var speed = 1000
 # Called every frame. 'delta' is the elapsed time since the previous frame.
