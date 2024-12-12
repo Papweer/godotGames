@@ -38,11 +38,14 @@ func _handle_touch(event: InputEventScreenTouch):
 		start_zoom = zoom
 		start_dist = 0
 
+
+
 func _handle_drag(event: InputEventScreenDrag):
 	touch_points[event.index] = event.position
 	# Handle 1 touch point
 	if touch_points.size() == 1:
 		position -= event.relative * PanSpeed / zoom
+		
 	# Handle 2 touch points
 	elif touch_points.size() == 2:
 		var touch_point_positions = touch_points.values()

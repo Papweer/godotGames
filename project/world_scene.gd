@@ -10,15 +10,26 @@ func changeMode(newMode: int) -> void:
 	mode = modes[newMode]
 	towerSelected.emit(false) # clear selection
 
+var drag: bool = false
+var touch: bool = false
+
 func _unhandled_input(event: InputEvent) -> void:
-	if event.is_action("mainClick") and event.pressed:
+	if event is InputEventScreenDrag:
+		print("drag")
+		drag = true
+	if (event.is_action_pressed("mainClick") and event is InputEventMouseButton and touch == false) or (event is InputEventScreenTouch and event.pressed == false and drag == false):
 		if mode == "placeTower":
 			placeTower(selectedTower)
 		elif mode == "deleteTower":
 			deleteTower()
 		elif mode == "moveSelect":
 			selectTower()
-		
+	if event.is_action_released("mainClick"):
+		drag = false
+	
+	if event is InputEventScreenTouch:
+		touch = true
+	
 func getBuildingsInCell(position: Vector2) -> Array:
 	var cell_pos = position.snappedf(64)
 	var objects = []

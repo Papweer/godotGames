@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733995498
+::res://::1733996672
 export_presets.cfg::TextFile::-1::1733994696::0::1::::<><>::
 MainCamera.gd::GDScript::-1::1733994761::0::1::::<>Camera2D<>::
 MenuScene.gd::GDScript::-1::1733994761::0::1::::<>Node2D<>::
 MenuScene.tscn::PackedScene::595454173946642265::1733994695::0::1::::<><>::res://MenuScene.gd
-WorldScene.tscn::PackedScene::3262303794413540776::1733994695::0::1::::<><>::res://world_scene.gd<>res://MainCamera.gd<>uid://dxfrgpa0br8ai::::res://Assets/Tiles/Field/FieldsTileset.png<>res://Hud/selectionPanel.gd<>uid://725u3xenkpx3::::res://Hud/SelectionOutline.tscn
+WorldScene.tscn::PackedScene::3262303794413540776::1733995518::0::1::::<><>::res://world_scene.gd<>res://MainCamera.gd<>uid://dxfrgpa0br8ai::::res://Assets/Tiles/Field/FieldsTileset.png<>res://Hud/selectionPanel.gd<>uid://725u3xenkpx3::::res://Hud/SelectionOutline.tscn
 world_scene.gd::GDScript::-1::1733994761::0::1::::<>Node2D<>::
 ::res://addons/::1733994695
 ::res://addons/godot-git-plugin/::1733994696
