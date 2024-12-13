@@ -1,8 +1,1 @@
 res://WorldScene.tscn
-res://MainCamera.gd
-res://world_scene.gd
-res://MenuScene.tscn
-res://Towers/Tower.tscn
-res://Towers/ArcherTower.tscn
-res://Hud/SelectionOutline.tscn
-res://GCC2D.gd
