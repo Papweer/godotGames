@@ -9,7 +9,7 @@ enum ROTATE_GESTURE { DISABLED , TWIST }
 enum MOVEMENT_GESTURE { DISABLED, SINGLE_DRAG, MULTI_DRAG }
 
 @export var zoom_gesture : ZOOM_GESTURE = ZOOM_GESTURE.PINCH 
-@export var rotation_gesture : ROTATE_GESTURE = ROTATE_GESTURE.TWIST
+#@export var rotation_gesture : ROTATE_GESTURE = ROTATE_GESTURE.TWIST
 @export var movement_gesture : MOVEMENT_GESTURE = MOVEMENT_GESTURE.SINGLE_DRAG
 
 func set_camera_position(p):
@@ -45,8 +45,8 @@ func _unhandled_input(e):
 	if (e is InputEventMultiScreenDrag and  movement_gesture == 2
 		or e is InputEventSingleScreenDrag and  movement_gesture == 1):
 		_move(e)
-	elif e is InputEventScreenTwist and rotation_gesture == 1:
-		_rotate(e)
+	#elif e is InputEventScreenTwist and rotation_gesture == 1:
+	#	_rotate(e)
 	elif e is InputEventScreenPinch and zoom_gesture == 1:
 		_zoom(e)
 
@@ -69,20 +69,20 @@ func _zoom(event):
 	var lf = event.distance - event.relative
 
 	var zi = zoom.x
-	var zf = (li*zi)/lf
-	var zd = zf - zi
+	var zoomFactor = (li*zi)/lf
+	var zoomDistance = zoomFactor - zi
 	
-	if zf <= MIN_ZOOM and sign(zd) < 0:
-		zf = MIN_ZOOM
-		zd = zf - zi
-	elif zf >= MAX_ZOOM and sign(zd) > 0:
-		zf = MAX_ZOOM
-		zd = zf - zi
+	if zoomFactor <= MIN_ZOOM and sign(zoomDistance) < 0:
+		zoomFactor = MIN_ZOOM
+		zoomDistance = zoomFactor - zi
+	elif zoomFactor >= MAX_ZOOM and sign(zoomDistance) > 0:
+		zoomFactor = MAX_ZOOM
+		zoomDistance = zoomFactor - zi
 	
 	var from_camera_center_pos = event.position - get_camera_center_offset()
-	zoom = zf*Vector2.ONE
+	zoom = zoomFactor*Vector2.ONE
 
-	var relative = (from_camera_center_pos*zd) / (zi*zf) 
+	var relative = (from_camera_center_pos*zoomDistance) / (zi*zoomFactor) 
 	if(!set_camera_position(position + relative.rotated(_get_rotation()))):
 		zoom = zi*Vector2.ONE
 
