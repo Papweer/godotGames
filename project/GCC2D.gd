@@ -41,28 +41,23 @@ func set_camera_position(p):
 	return true
 
 
-func _unhandled_input(e):
-	if (e is InputEventMultiScreenDrag and  movement_gesture == 2
-		or e is InputEventSingleScreenDrag and  movement_gesture == 1):
-		_move(e)
+func _unhandled_input(event):
+	if (event is InputEventMultiScreenDrag and  movement_gesture == 2
+		or event is InputEventSingleScreenDrag and  movement_gesture == 1):
+		_move(event)
 	#elif e is InputEventScreenTwist and rotation_gesture == 1:
 	#	_rotate(e)
-	elif e is InputEventScreenPinch and zoom_gesture == 1:
-		_zoom(e)
-
-func _get_rotation():
-	if (ignore_rotation):
-		return 0 
-	return rotation
+	elif event is InputEventScreenPinch and zoom_gesture == 1:
+		_zoom(event)
 
 # Given a a position on the camera returns to the corresponding global position
 func camera2global(position):
 	var camera_center = global_position
 	var from_camera_center_pos = position - get_camera_center_offset()
-	return camera_center + (from_camera_center_pos/zoom).rotated(_get_rotation())
+	return camera_center + (from_camera_center_pos/zoom)
 
 func _move(event):
-	set_camera_position(position - (event.relative/zoom).rotated(_get_rotation()))
+	set_camera_position(position - (event.relative/zoom))
 
 func _zoom(event):
 	var li = event.distance
@@ -83,16 +78,9 @@ func _zoom(event):
 	zoom = zoomFactor*Vector2.ONE
 
 	var relative = (from_camera_center_pos*zoomDistance) / (zi*zoomFactor) 
-	if(!set_camera_position(position + relative.rotated(_get_rotation()))):
+	if(!set_camera_position(position + relative)):
 		zoom = zi*Vector2.ONE
 
-func _rotate(event):
-	if ignore_rotation:
-		return
-	var fccp = (event.position - get_camera_center_offset())
-	var fccp_op_rot =  -fccp.rotated(event.relative)
-	set_camera_position(position - ((fccp_op_rot + fccp)/zoom).rotated(rotation-event.relative))
-	rotation -= event.relative
 
 func get_camera_center_offset():
 	if anchor_mode == ANCHOR_MODE_FIXED_TOP_LEFT:
