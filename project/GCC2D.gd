@@ -45,8 +45,6 @@ func _unhandled_input(event):
 	if (event is InputEventMultiScreenDrag and  movement_gesture == 2
 		or event is InputEventSingleScreenDrag and  movement_gesture == 1):
 		_move(event)
-	#elif e is InputEventScreenTwist and rotation_gesture == 1:
-	#	_rotate(e)
 	elif event is InputEventScreenPinch and zoom_gesture == 1:
 		_zoom(event)
 
@@ -90,3 +88,20 @@ func get_camera_center_offset():
 
 func get_camera_size():
 	return get_viewport().get_visible_rect().size
+
+
+# keyboard input
+var speed = 1000
+func _process(_delta):
+	var velocity = Vector2()  # The player's movement vector.
+	if Input.is_action_pressed("moveRight"):
+		velocity.x += 1
+	if Input.is_action_pressed("moveLeft"):
+		velocity.x -= 1
+	if Input.is_action_pressed("moveDown"):
+		velocity.y += 1
+	if Input.is_action_pressed("moveUp"):
+		velocity.y -= 1
+	if velocity.length() > 0:
+		velocity = velocity.normalized() * speed / zoom.x
+	position += velocity * _delta

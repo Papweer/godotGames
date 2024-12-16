@@ -1,5 +1,6 @@
-Sprite2D
 Button
+GridContainer
+Sprite2D
 Label
 VBoxContainer
 OptionButton
@@ -7,7 +8,6 @@ Panel
 PanelContainer
 TabContainer
 HBoxContainer
-GridContainer
 AnimatedSprite2D
 AnimatableBody2D
 Camera2D

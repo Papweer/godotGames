@@ -1,13 +1,13 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1734079656
-export_presets.cfg::TextFile::-1::1734079262::0::1::::<><>::
-GCC2D.gd::GDScript::-1::1734079157::0::1::::<>Camera2D<>::
+::res://::1734087782
+export_presets.cfg::TextFile::-1::1734079678::0::1::::<><>::
+GCC2D.gd::GDScript::-1::1734081548::0::1::::<>Camera2D<>::
 GCC2D.tscn::PackedScene::-1::1682989469::0::1::::<><>::res://GCC2D.gd
 MainCamera.gd::GDScript::-1::1734078560::0::1::::<>Camera2D<>::
 MenuScene.gd::GDScript::-1::1733994761::0::1::::<>Node2D<>::
-MenuScene.tscn::PackedScene::595454173946642265::1734079157::0::1::::<><>::res://MenuScene.gd
+MenuScene.tscn::PackedScene::595454173946642265::1734085631::0::1::::<><>::res://MenuScene.gd
 WorldScene.gd::GDScript::-1::1733999254::0::1::::<>Node2D<>::
-WorldScene.tscn::PackedScene::3262303794413540776::1734079635::0::1::::<><>::res://WorldScene.gd<>uid://dxfrgpa0br8ai::::res://Assets/Tiles/Field/FieldsTileset.png<>res://Hud/selectionPanel.gd<>uid://725u3xenkpx3::::res://Hud/SelectionOutline.tscn<>res://GCC2D.tscn
+WorldScene.tscn::PackedScene::3262303794413540776::1734087782::0::1::::<><>::res://WorldScene.gd<>uid://dxfrgpa0br8ai::::res://Assets/Tiles/Field/FieldsTileset.png<>uid://wphx33nddp30::::res://Assets/Archer Tower Assets/2 Idle/1.png<>res://Hud/selectionPanel.gd<>uid://725u3xenkpx3::::res://Hud/SelectionOutline.tscn<>res://GCC2D.tscn
 ::res://addons/::1733994695
 ::res://addons/godot-git-plugin/::1733994696
 git_plugin.gdextension::GDExtension::-1::1733994695::0::1::::<><>::
@@ -17,7 +17,7 @@ THIRDPARTY.md::TextFile::-1::1733994695::0::1::::<><>::
 ::res://addons/godot-git-plugin/macos/::1733994696
 ::res://addons/godot-git-plugin/win64/::1733994696
 ::res://Assets/::1733994695
-::res://Assets/Archer Tower Assets/::1733994695
+::res://Assets/Archer Tower Assets/::1734087618
 ::res://Assets/Archer Tower Assets/1 Upgrade/::1733994757
 1.png::CompressedTexture2D::7766648794375467268::1733994695::1733994757::1::::<><>::
 2.png::CompressedTexture2D::4667469105420865402::1733994695::1733994757::1::::<><>::
@@ -93,6 +93,8 @@ U_Preattack.png::CompressedTexture2D::2433198053982298::1733994695::1733994757::
 25.png::CompressedTexture2D::5388956070563077141::1733994695::1733994757::1::::<><>::
 26.png::CompressedTexture2D::6024049577825957219::1733994695::1733994757::1::::<><>::
 27.png::CompressedTexture2D::71030666974235470::1733994695::1733994757::1::::<><>::
+::res://Assets/Archer Tower Assets/4 Icons/::1734088323
+Lv1.png::CompressedTexture2D::4374409750876295541::1734088323::1734088325::1::::<><>::
 ::res://Assets/Archer Tower Assets/PSD/::1733994695
 ::res://Assets/Gui/::1733994757
 Selection Outline.png::CompressedTexture2D::340048505092697501::1733994695::1733994757::1::::<><>::
@@ -746,8 +748,8 @@ CyberpunkCraftpixPixel.otf::FontFile::6241286339639909292::1733994695::173399475
 ::res://Assets/Tiles/::1733994695
 ::res://Assets/Tiles/Field/::1733994757
 FieldsTileset.png::CompressedTexture2D::8784971036152986564::1733994695::1733994757::1::::<><>::
-::res://Hud/::1734079157
-SelectionOutline.tscn::PackedScene::2303639927821572934::1734079157::0::1::::<><>::uid://e3ysw4v7g7h6::::res://Assets/Gui/Selection Outline.png
+::res://Hud/::1734085631
+SelectionOutline.tscn::PackedScene::2303639927821572934::1734085631::0::1::::<><>::uid://e3ysw4v7g7h6::::res://Assets/Gui/Selection Outline.png
 selectionPanel.gd::GDScript::-1::1733994761::0::1::::<>VBoxContainer<>::
 ::res://touchInputs/::1734005500
 InputManager.gd::GDScript::-1::1682902529::0::1::::<>Node<>::
@@ -766,8 +768,8 @@ InputEventSingleScreenLongPress.gd::GDScript::-1::1682902529::0::1::::InputEvent
 InputEventSingleScreenSwipe.gd::GDScript::-1::1682902529::0::1::::InputEventSingleScreenSwipe<>InputEventAction<>::
 InputEventSingleScreenTap.gd::GDScript::-1::1682902529::0::1::::InputEventSingleScreenTap<>InputEventAction<>::
 InputEventSingleScreenTouch.gd::GDScript::-1::1682902529::0::1::::InputEventSingleScreenTouch<>InputEventAction<>::
-::res://Towers/::1734079157
+::res://Towers/::1734085631
 ArcherTower.gd::GDScript::-1::1733994761::0::1::::<>AnimatableBody2D<>::
-ArcherTower.tscn::PackedScene::6439247380655937634::1734079157::0::1::::<><>::uid://wphx33nddp30::::res://Assets/Archer Tower Assets/2 Idle/1.png<>uid://du4q8qpspbhr1::::res://Towers/Tower.tscn<>uid://diwhtn8rk4y3e::::res://Assets/Archer Tower Assets/1 Upgrade/1.png<>uid://cy1tew1syi1eh::::res://Assets/Archer Tower Assets/2 Idle/2.png<>uid://c7jbin52pgrx6::::res://Assets/Archer Tower Assets/2 Idle/3.png<>uid://b7q7sft13ew3k::::res://Assets/Archer Tower Assets/1 Upgrade/2.png<>uid://dhvun23jpgklr::::res://Assets/Archer Tower Assets/2 Idle/4.png<>uid://bg356b4awiopk::::res://Assets/Archer Tower Assets/2 Idle/5.png<>uid://bec2j6qjvywwg::::res://Assets/Archer Tower Assets/1 Upgrade/3.png<>uid://jw320nrul0fu::::res://Assets/Archer Tower Assets/2 Idle/6.png<>uid://bfi23lg3ovjxs::::res://Assets/Archer Tower Assets/2 Idle/7.png<>uid://covv231m41v50::::res://Assets/Archer Tower Assets/1 Upgrade/4.png<>uid://nuqvh21qjof3::::res://Assets/Archer Tower Assets/1 Upgrade/5.png<>uid://ba0o1bt0qfou2::::res://Assets/Archer Tower Assets/1 Upgrade/6.png<>uid://b7wqe2fy6ppty::::res://Assets/Archer Tower Assets/1 Upgrade/7.png
+ArcherTower.tscn::PackedScene::6439247380655937634::1734085631::0::1::::<><>::uid://wphx33nddp30::::res://Assets/Archer Tower Assets/2 Idle/1.png<>uid://du4q8qpspbhr1::::res://Towers/Tower.tscn<>uid://diwhtn8rk4y3e::::res://Assets/Archer Tower Assets/1 Upgrade/1.png<>uid://cy1tew1syi1eh::::res://Assets/Archer Tower Assets/2 Idle/2.png<>uid://c7jbin52pgrx6::::res://Assets/Archer Tower Assets/2 Idle/3.png<>uid://b7q7sft13ew3k::::res://Assets/Archer Tower Assets/1 Upgrade/2.png<>uid://dhvun23jpgklr::::res://Assets/Archer Tower Assets/2 Idle/4.png<>uid://bg356b4awiopk::::res://Assets/Archer Tower Assets/2 Idle/5.png<>uid://bec2j6qjvywwg::::res://Assets/Archer Tower Assets/1 Upgrade/3.png<>uid://jw320nrul0fu::::res://Assets/Archer Tower Assets/2 Idle/6.png<>uid://bfi23lg3ovjxs::::res://Assets/Archer Tower Assets/2 Idle/7.png<>uid://covv231m41v50::::res://Assets/Archer Tower Assets/1 Upgrade/4.png<>uid://nuqvh21qjof3::::res://Assets/Archer Tower Assets/1 Upgrade/5.png<>uid://ba0o1bt0qfou2::::res://Assets/Archer Tower Assets/1 Upgrade/6.png<>uid://b7wqe2fy6ppty::::res://Assets/Archer Tower Assets/1 Upgrade/7.png
 Tower.gd::GDScript::-1::1733994761::0::1::::Tower<>AnimatableBody2D<>::
-Tower.tscn::PackedScene::8623937146174408560::1734079157::0::1::::<><>::res://Towers/Tower.gd
+Tower.tscn::PackedScene::8623937146174408560::1734085631::0::1::::<><>::res://Towers/Tower.gd

@@ -1,1 +1,6 @@
 res://WorldScene.tscn
+res://MenuScene.tscn
+res://GCC2D.gd
+res://Towers/Tower.tscn
+res://Towers/ArcherTower.tscn
+res://Hud/SelectionOutline.tscn
